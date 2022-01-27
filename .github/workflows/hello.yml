@@ -11,6 +11,4 @@ jobs:
     steps:
       - name: Say hello
         run: |
-          date
-        run: | 
-          ls -la
+          date && ls -la
